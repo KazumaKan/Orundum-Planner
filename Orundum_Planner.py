@@ -92,10 +92,10 @@ if __name__ == "__main__":
     total_rolls = total_orundum // 600 + total_tickets + rolls_from_free
 
     print("\n=== ผลการคำนวณ ===")
-    print(f"รวมวัน : {total_days}")
-    print(f"Orundum ที่จะได้ต่อจากนี้ : {orundum}")
-    print(f"ตั๋วที่จะได้ต่อจากนี้ : {tickets}")
-    print(f"โรลฟรีจากตู้ Limited : {rolls_from_free}")
+    print(f"🗓️ รวมวัน : {total_days}")
+    print(f"💎 Orundum ที่จะได้ต่อจากนี้ : {orundum}")
+    print(f"🎟️ ตั๋วที่จะได้ต่อจากนี้ : {tickets}")
+    print(f"🎁 โรลฟรีจากตู้ Limited : {rolls_from_free}")
     print(f"Orundum ที่คุณมีอยู่ : {existing_orundum}")
     print(f"ตั๋วที่คุณมีอยู่ : {existing_tickets}")
     print(f"\n👉 รวม Orundum ทั้งหมด : {total_orundum}")
